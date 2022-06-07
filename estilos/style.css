@@ -53,6 +53,7 @@ section{
 }
 ul{
     /* background-color:#83CEF9; */
+    margin: auto;
     border: 1px solid white;
     list-style: none;
     padding: left 2;
