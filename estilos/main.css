@@ -1,0 +1,153 @@
+.padrelogo {
+  background-color: #44B5F7;
+  /*/ E /*/ }
+  .padrelogo__#logo {
+    width: 160px;
+    height: 140px;
+    /*/ E /*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+
+.unite-cta {
+  display: flex;
+  align-items: center;
+  /* background:#44B5F7; */
+  border: 1px solid white;
+  padding: 10px 10px;
+  position: relative;
+  margin-left: 10px;
+  outline: none;
+  background: #1f9fd6;
+  background: linear-gradient(176deg, #1f9fd6 20%, #00b2f9 50%, #23bbf7 78%); }
+  .unite-cta__.boton1 {
+    background-color: #44B5F7;
+    display: flex;
+    justify-content: left; }
+  .unite-cta__.anchor-unite {
+    color: white;
+    font-size: 1.7rem; }
+
+ul {
+  /* background-color:#83CEF9; */
+  margin: auto;
+  border: 1px solid white;
+  list-style: none;
+  padding: left 2;
+  display: flex;
+  justify-content: center;
+  background: #1f9fd6;
+  background: linear-gradient(176deg, #1f9fd6 20%, #00b2f9 50%, #23bbf7 78%); }
+  ul__li {
+    float: left;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto; }
+  ul .lista-item1,
+  ul .lista-item2,
+  ul .lista-item3,
+  ul .lista-item4,
+  ul .lista-item5 {
+    color: white;
+    font-size: 1.7rem;
+    align-items: center;
+    text-decoration: underline;
+    padding: 10px; }
+  @media (max-width: 576px) {
+    ul ul {
+      flex-direction: column; } }
+
+.padre-imagenes {
+  background-color: #44B5F7;
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  grid-template-columns: 100%;
+  grid-template-areas: "header" "div1 " "parrafo" "botom"; }
+  .padre-imagenes__.padre-hijos img {
+    max-width: 100%;
+    min-width: 100%; }
+  @media (min-width: 576px) {
+    .padre-imagenes .padre-imagenes {
+      grid-template-rows: auto auto auto;
+      grid-template-columns: 50% 50%;
+      grid-template-areas: "header div1" "parrafo parrafo" "botom botom"; } }
+  .padre-imagenes__.imagen1 {
+    grid-area: header;
+    /* width :600px; */
+    /* height :400px; */
+    margin-bottom: 20px;
+    display: inline-block;
+    background-color: #44B5F7; }
+  .padre-imagenes__.chicoenbici {
+    grid-area: div1;
+    /* width :600px; */
+    /* height: 400px; */
+    margin-bottom: 20px;
+    display: inline-block;
+    background-color: #44B5F7; }
+  .padre-imagenes__.parrafo1 {
+    grid-area: parrafo;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: #83CEF9;
+    padding: 5px 3px 3px 5px; }
+  .padre-imagenes__.botonvermas {
+    grid-area: botom;
+    color: white;
+    /* background:#44B5F7; */
+    padding: 10px;
+    border: 1px solid white;
+    background: #44B5F7;
+    background: #1f9fd6;
+    background: linear-gradient(176deg, #1f9fd6 20%, #00b2f9 50%, #23bbf7 78%); }
+
+.padre-imagenes2 {
+  background-color: #44B5F7;
+  position: relative;
+  display: grid;
+  grid-template-rows: auto auto auto auto auto;
+  grid-template-columns: 100%;
+  grid-template-areas: "peque" "couple" "chica" "parrafo2" "botom2"; }
+  @media (min-width: 576px) {
+    .padre-imagenes2 .padre-imagenes2 {
+      grid-template-rows: auto auto auto;
+      grid-template-columns: 33.3% 33.3% 33.3%;
+      grid-template-areas: "peque couple chica" "parrafo2 parrafo2 parrafo2" "botom2 botom2 botom2"; } }
+  .padre-imagenes2_.img-peque {
+    grid-area: peque;
+    /* width: 341px; */
+    /* height:250px; */
+    margin-right: auto; }
+  .padre-imagenes2_.couple-bici {
+    grid-area: couple;
+    /* width: 341px; */
+    /* height:250px; */
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto; }
+  .padre-imagenes2_.chicaenbici {
+    grid-area: chica;
+    /* width: 34s1px; */
+    /* height: 250px; */
+    top: 100px;
+    left: 100px; }
+  .padre-imagenes2_.parrafo2 {
+    grid-area: parrafo2;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: #83CEF9;
+    padding: 10px 5px 5px 10px; }
+  .padre-imagenes2_.boton2 {
+    grid-area: botom2; }
+
+body {
+  background-color: white; }
+
+footer {
+  color: white;
+  /* background-color:#83CEF9; */
+  text-align: center;
+  background: #1f9fd6;
+  background: linear-gradient(176deg, #1f9fd6 20%, #00b2f9 50%, #23bbf7 78%); }

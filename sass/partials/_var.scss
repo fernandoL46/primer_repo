@@ -1,0 +1,77 @@
+.padrelogo {
+    background-color: #44B5F7;
+    /*/ E /*/
+
+
+    &__#logo {
+        width: 160px;
+        height: 140px;
+        /*/ E /*/
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+}
+
+.unite-cta {
+    display: flex;
+    align-items: center;
+    /* background:#44B5F7; */
+    border: 1px solid white;
+    padding: 10px 10px;
+    position: relative;
+    margin-left: 10px;
+    outline: none;
+    background: rgb(31, 159, 214);
+    background: linear-gradient(176deg, rgba(31, 159, 214, 1) 20%, rgba(0, 178, 249, 1) 50%, rgba(35, 187, 247, 1) 78%);
+
+    &__.boton1 {
+        background-color: #44B5F7;
+        display: flex;
+        justify-content: left;
+    }
+
+    &__.anchor-unite {
+        color: white;
+        font-size: 1.7rem;
+    }
+}
+
+ul {
+    /* background-color:#83CEF9; */
+    margin: auto;
+    border: 1px solid white;
+    list-style: none;
+    padding: left 2;
+    display: flex;
+    justify-content: center;
+    background: rgb(31, 159, 214);
+    background: linear-gradient(176deg, rgba(31, 159, 214, 1) 20%, rgba(0, 178, 249, 1) 50%, rgba(35, 187, 247, 1) 78%);
+
+    &__li {
+        float: left;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .lista-item1,
+    .lista-item2,
+    .lista-item3,
+    .lista-item4,
+    .lista-item5 {
+        color: white;
+        font-size: 1.7rem;
+        align-items: center;
+        text-decoration: underline;
+        padding: 10px;
+    }
+
+    @media(max-width:576px) {
+        ul {
+            flex-direction: column;
+        }
+    }
+}
