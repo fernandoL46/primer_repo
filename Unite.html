@@ -1,79 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bike maps</title>
     <link rel="shortcut icon" href="./img/favicon-32x32.png">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="./estilos/style.css">
- </head>
- <body>
-     <main>
-         <header>
-             <div class="padrelogo">
-                <a href="./index.html"><img id="logo" src="./img/bikemaps_Mesa de trabajo 1 copia.png"  alt="logo"></a> 
-             </div>
-             <section>
-                 <h2>TODO EL MUNDO CICLISTA EN UN SOLO LUGAR</h2>
-             </section>
-             <div class="boton1">
-                  <button class="unite-cta" >
-                 <a class="anchor-unite" href="./Unite.html" >Unite</a></button>
-             </div>
-         </header>
-         <nav>
-              <ul>
-                 <li><a class="lista-item1" href="./iniciarsesion.html">iniciar sesion</a></li>
-                 <li><a class="lista-item2" href="./modelos.html">Modelos</a></li>
-                 <li><a class="lista-item3" href="./indumentaria.html">Indumentaria</a></li>
-                 <li><a class="lista-item4"  href="./tiendas.html">Tiendas </a></li>
-                 <li><a class="lista-item5" href="./descuentos.html">Descuentos</a></li>
-              </ul>
-         </nav>
-      </main>
-      <div class="padre-form">
-          <form action=""method="get" enctype="text/plain">
-             <fieldset>
-                 <legend>Datos del Usuario</legend> 
-                 <label class="Nombre" for="username">Nombre:</label>
-                 <input class="imput-g"  type="text" name="username" id="username" required>
-                 <label  for="lastname">Apellido:</label>
-                 <input class="imput-g"  type="text" name="lastname" id="lastname"required>
-                 <label for="userdate">fecha de nacimiento</label>
-                 <input class="imput-g"  type="date" name="userdate" id="userdate">
-                 <div>
-                     <label for="usermail">Correo Electronico:</label>
-                     <input class="imput-g"  type="email" name="usermail" id="usermail"required>
-                     <label for="password">Contraseña:</label>
-                     <input class="imput-g"  type="password" name="password" id="password"required>
-                     <label for="password">Confirme su Contraseña:</label>
-                     <input class="imput-g"  type="password" name="password" id="password"required>
-                 </div>
-                 <div>
-                     <label for="usersex">Sexo:</label>
-                     <input class="imput-g" type="radio" name="usersex" id="usersex"value="Hombre">Hombre
-                     <input class="imput-g"  type="radio" name="usersex" id="usersex"value="Mujer">Mujer
-                     <input class="imput-g"  type="radio" name="usersex" id="usersex" value="Prefiero no decirlo">Prefiero no decirlo
-                 </div>
-             </fieldset>
-             <div>
-                 <input class="imput-b"  type="submit" value="ENVIAR">
-                 <input class="imput-b"  type="reset" value="BORRAR DATOS">
-             </div>
-             <div>
-                 <label for="terminosdeuso">ACEPTA TERMINOS Y CONDICIONES</label>
-                 <input class="imput-g" type="checkbox" name="terminosdeuso" id="terminosdeusos" required>
-             </div>
-         </form>
-      </div>
-      
-     <div class="div-imagen-unite">
-          <img class="imagen-unite" src="./img/grupo en bici2.jpeg" alt="grupo en bici">  
-     </div>
-     
-     <footer>footer content--- header.com 2022 </footer>
-     
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-    </body>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="./estilos/main.css">
+</head>
+
+<body>
+    <main>
+        <header>
+            <div class="padrelogo">
+                <a href="./index.html"><img id="logo" src="./img/bikemaps_Mesa de trabajo 1 copia.png" alt="logo"></a>
+            </div>
+            <section>
+                <h2>TODO EL MUNDO CICLISTA EN UN SOLO LUGAR</h2>
+            </section>
+            <div class="boton1">
+                <a class="anchor-unite" href="./Unite.html">Unite</a>
+            </div>
+        </header>
+        <nav>
+            <ul class="menu">
+                <li><a class="lista-item1" href="./iniciarsesion.html">iniciar sesion</a></li>
+                <li><a class="lista-item2" href="./modelos.html">Modelos</a></li>
+                <li><a class="lista-item3" href="./indumentaria.html">Indumentaria</a></li>
+                <li><a class="lista-item4" href="./tiendas.html">Tiendas </a></li>
+                <li><a class="lista-item5" href="./descuentos.html">Descuentos</a></li>
+            </ul>
+        </nav>
+    </main>
+    <div class="padre-form">
+        <form action="" method="get" enctype="text/plain">
+            <fieldset>
+                <legend>Datos del Usuario</legend>
+                <label class="Nombre" for="username">Nombre:</label>
+                <input class="imput-g" type="text" name="username" id="username" required>
+                <label for="lastname">Apellido:</label>
+                <input class="imput-g" type="text" name="lastname" id="lastname" required>
+                <label for="userdate">fecha de nacimiento</label>
+                <input class="imput-g" type="date" name="userdate" id="userdate">
+                <div>
+                    <label for="usermail">Correo Electronico:</label>
+                    <input class="imput-g" type="email" name="usermail" id="usermail" required>
+                    <label for="password">Contraseña:</label>
+                    <input class="imput-g" type="password" name="password" id="password" required>
+                    <label for="password">Confirme su Contraseña:</label>
+                    <input class="imput-g" type="password" name="password" id="password" required>
+                </div>
+                <div>
+                    <label for="usersex">Sexo:</label>
+                    <input class="imput-g" type="radio" name="usersex" id="usersex" value="Hombre">Hombre
+                    <input class="imput-g" type="radio" name="usersex" id="usersex" value="Mujer">Mujer
+                    <input class="imput-g" type="radio" name="usersex" id="usersex" value="Prefiero no decirlo">Prefiero
+                    no decirlo
+                </div>
+            </fieldset>
+            <div>
+                <input class="imput-b" type="submit" value="ENVIAR">
+                <input class="imput-b" type="reset" value="BORRAR DATOS">
+            </div>
+            <div>
+                <label for="terminosdeuso">ACEPTA TERMINOS Y CONDICIONES</label>
+                <input class="imput-g" type="checkbox" name="terminosdeuso" id="terminosdeusos" required>
+            </div>
+        </form>
+    </div>
+
+    <div class="div-imagen-unite">
+        <img class="imagen-unite" src="./img/grupo en bici2.jpeg" alt="grupo en bici">
+    </div>
+
+    <footer>footer content--- header.com 2022 </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>

@@ -1,0 +1,39 @@
+form {
+    margin: 0 auto;
+    color: white;
+    background-color: #44B5F7;
+    /*/ este form hace funcion en la pag de inicio/*/
+    font-size: 15px;
+    padding: 20px;
+    border-radius: 3px;
+    border-color: #44B5F7;
+
+    .imput-a {
+        border: 0;
+        outline: none;
+        border: 1px solid black;
+        padding: 10px;
+        border-radius: 4px;
+        border-color: #83CEF9;
+    }
+
+    .imput-d {
+        border: 1px solid white;
+        padding: 10px;
+        color: white;
+        /* background-color:#83CEF9; */
+        border-radius: 4px;
+        background: rgb(31, 159, 214);
+        @extend .linear-gradient;
+    }
+
+    .padre-div-inicio {
+        background-color: #44B5F7;
+    }
+
+
+}
+
+.imagen-inicio-de-sesion {
+    width: 100%;
+}

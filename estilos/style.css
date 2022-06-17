@@ -1,57 +1,68 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 
 }
-html{
+
+html {
     font-size: 62.5%;
 }
-.padrelogo{
-    background-color:#44B5F7; /*/ E /*/
-    
+
+.padrelogo {
+    background-color: #44B5F7;
+    /*/ E /*/
+
 }
-#logo{
+
+#logo {
     width: 160px;
-    height: 140px;                       /*/ E /*/
+    height: 140px;
+    /*/ E /*/
     display: block;
     margin-left: auto;
-    margin-right: auto ;
+    margin-right: auto;
 }
+
 /*/ css para las 5 paginas (E)/*/
-section{
+h2 {
     color: white;
-    background-color:#44B5F7;
+    background-color: #44B5F7;
     font-family: 'Times New Roman', Times, serif;
     font-size: 1rem;
-    display: grid;               /*/ E /*/
+    display: grid;
+    /*/ E /*/
     justify-content: center;
     align-items: center;
     padding: 20px;
-  
+
 }
-.boton1{
-    background-color:#44B5F7;
-    display:flex;
-   justify-content:left;
+
+.boton1 {
+    background-color: #44B5F7;
+    display: flex;
+    justify-content: left;
 }
-.unite-cta{
+
+.unite-cta {
     display: flex;
     align-items: center;
     /* background:#44B5F7; */
-   border: 1px solid white;
+    border: 1px solid white;
     padding: 10px 10px;
     position: relative;
     margin-left: 10px;
     outline: none;
-    background: rgb(31,159,214);
-    background: linear-gradient(176deg, rgba(31,159,214,1) 20%, rgba(0,178,249,1) 50%, rgba(35,187,247,1) 78%);
+    background: rgb(31, 159, 214);
+    background: linear-gradient(176deg, rgba(31, 159, 214, 1) 20%, rgba(0, 178, 249, 1) 50%, rgba(35, 187, 247, 1) 78%);
 }
-.anchor-unite{
-    color:white;
+
+.anchor-unite {
+    color: white;
     font-size: 1.7rem;
 }
-ul{
+
+ul {
     /* background-color:#83CEF9; */
     margin: auto;
     border: 1px solid white;
@@ -59,286 +70,323 @@ ul{
     padding: left 2;
     display: flex;
     justify-content: center;
-    background: rgb(31,159,214);
-    background: linear-gradient(176deg, rgba(31,159,214,1) 20%, rgba(0,178,249,1) 50%, rgba(35,187,247,1) 78%);
+    background: rgb(31, 159, 214);
+    background: linear-gradient(176deg, rgba(31, 159, 214, 1) 20%, rgba(0, 178, 249, 1) 50%, rgba(35, 187, 247, 1) 78%);
 
 }
-@media(max-width:576px){
-    ul{
+
+@media(max-width:576px) {
+    ul {
         flex-direction: column;
     }
 }
 
-.lista-item1,.lista-item2,.lista-item3,.lista-item4,.lista-item5{
+.lista-item1,
+.lista-item2,
+.lista-item3,
+.lista-item4,
+.lista-item5 {
     color: white;
     font-size: 1.7rem;
     align-items: center;
     text-decoration: underline;
     padding: 10px;
-    
+
 }
-li{
+
+li {
     float: left;
     display: flex;
     margin-right: auto;
     margin-left: auto;
 }
-.padre-imagenes{
+
+.padre-imagenes {
     background-color: #44B5F7;
     display: grid;
     grid-template-rows: auto auto auto auto;
     grid-template-columns: 100%;
-    grid-template-areas: 
-    "header" 
-    "div1 "
-    "parrafo"
-    "botom";
-} 
-@media(min-width:576px){
-    .padre-imagenes{
+    grid-template-areas:
+        "header"
+        "div1 "
+        "parrafo"
+        "botom";
+}
+
+@media(min-width:576px) {
+    .padre-imagenes {
         grid-template-rows: auto auto auto;
         grid-template-columns: 50% 50%;
-        grid-template-areas: 
-        "header div1" 
-        "parrafo parrafo"
-        "botom botom";
-    } 
+        grid-template-areas:
+            "header div1"
+            "parrafo parrafo"
+            "botom botom";
+    }
 }
-.padre-hijos img{
+
+.padre-hijos img {
     max-width: 100%;
     min-width: 100%;
 }
 
-.imagen1{
+.imagen1 {
     grid-area: header;
     /* width :600px; */
     /* height :400px; */
     margin-bottom: 20px;
-    display:inline-block;
-    background-color:#44B5F7 ;
-  }
-.chicoenbici{
-   grid-area: div1 ;
+    display: inline-block;
+    background-color: #44B5F7;
+}
+
+.chicoenbici {
+    grid-area: div1;
     /* width :600px; */
     /* height: 400px; */
     margin-bottom: 20px;
     display: inline-block;
     background-color: #44B5F7;
- }
-.parrafo1{
-    grid-area: parrafo ;
+}
+
+.parrafo1 {
+    grid-area: parrafo;
     color: white;
     font-size: 1.5rem;
     text-align: center;
-    background-color:#83CEF9;
+    background-color: #83CEF9;
     padding: 5px 3px 3px 5px;
 }
-.botonvermas{
-   grid-area: botom;
-    color:white;
+
+.botonvermas {
+    grid-area: botom;
+    color: white;
     /* background:#44B5F7; */
     padding: 10px;
     border: 1px solid white;
-    background:#44B5F7;
-    background: rgb(31,159,214);
-background: linear-gradient(176deg, rgba(31,159,214,1) 20%, rgba(0,178,249,1) 50%, rgba(35,187,247,1) 78%);
+    background: #44B5F7;
+    background: rgb(31, 159, 214);
+    background: linear-gradient(176deg, rgba(31, 159, 214, 1) 20%, rgba(0, 178, 249, 1) 50%, rgba(35, 187, 247, 1) 78%);
 
 }
-.padre-imagenes2{
-    background-color:#44B5F7;
+
+.padre-imagenes2 {
+    background-color: #44B5F7;
     position: relative;
     display: grid;
     grid-template-rows: auto auto auto auto auto;
     grid-template-columns: 100%;
-    grid-template-areas: 
-    "peque"
-    "couple"
-    "chica"
-    "parrafo2"
-    "botom2";
+    grid-template-areas:
+        "peque"
+        "couple"
+        "chica"
+        "parrafo2"
+        "botom2";
 }
-@media(min-width:576px){
-    .padre-imagenes2{
-        grid-template-rows: auto auto auto ;
+
+@media(min-width:576px) {
+    .padre-imagenes2 {
+        grid-template-rows: auto auto auto;
         grid-template-columns: 33.3% 33.3% 33.3%;
-        grid-template-areas: 
-        "peque couple chica"
-        "parrafo2 parrafo2 parrafo2"
-        "botom2 botom2 botom2";
+        grid-template-areas:
+            "peque couple chica"
+            "parrafo2 parrafo2 parrafo2"
+            "botom2 botom2 botom2";
     }
 }
-.img-peque{
+
+.img-peque {
     grid-area: peque;
     /* width: 341px; */
     /* height:250px; */
     margin-right: auto;
 }
-.couple-bici{
+
+.couple-bici {
     grid-area: couple;
     /* width: 341px; */
     /* height:250px; */
-    display: inline-block ;
+    display: inline-block;
     margin-left: auto;
     margin-right: auto;
 }
-.chicaenbici{
-   grid-area: chica;
+
+.chicaenbici {
+    grid-area: chica;
     /* width: 34s1px; */
     /* height: 250px; */
     top: 100px;
     left: 100px;
 }
 
-.parrafo2{
+.parrafo2 {
     grid-area: parrafo2;
     color: white;
     font-size: 1.5rem;
-    text-align:center;
-    background-color:#83CEF9;
+    text-align: center;
+    background-color: #83CEF9;
     padding: 10px 5px 5px 10px;
 
 }
-.boton2{
+
+.boton2 {
     grid-area: botom2;
 }
-body{
-    background-color:white;
+
+body {
+    background-color: white;
 }
-footer{
+
+footer {
     color: white;
     /* background-color:#83CEF9; */
     text-align: center;
-    background: rgb(31,159,214);
-background: linear-gradient(176deg, rgba(31,159,214,1) 20%, rgba(0,178,249,1) 50%, rgba(35,187,247,1) 78%);
+    background: rgb(31, 159, 214);
+    background: linear-gradient(176deg, rgba(31, 159, 214, 1) 20%, rgba(0, 178, 249, 1) 50%, rgba(35, 187, 247, 1) 78%);
 }
+
 /*/pagina unite/*/
 
-form{
+form {
     margin: 0 auto;
     color: white;
-    background-color:#44B5F7; /*/ este form hace funcion en la pag de inicio/*/
+    background-color: #44B5F7;
+    /*/ este form hace funcion en la pag de inicio/*/
     font-size: 15px;
     padding: 20px;
     border-radius: 3px;
-    border-color:#44B5F7; 
-    
+    border-color: #44B5F7;
+
 
 }
-.imput-g{
+
+.imput-g {
     border: 0;
     outline: none;
     border: 1px solid black;
     padding: 10px;
     border-radius: 4px;
-    border-color:#44B5F7;
+    border-color: #44B5F7;
     align-items: center;
 }
-.imput-b{
-    border:1px solid white;
+
+.imput-b {
+    border: 1px solid white;
     padding: 10px;
     color: white;
     /* background-color:#83CEF9; */
     border-radius: 4px;
-    background: rgb(31,159,214);
-    background: linear-gradient(176deg, rgba(31,159,214,1) 20%, rgba(0,178,249,1) 50%, rgba(35,187,247,1) 78%);
-    
+    background: rgb(31, 159, 214);
+    background: linear-gradient(176deg, rgba(31, 159, 214, 1) 20%, rgba(0, 178, 249, 1) 50%, rgba(35, 187, 247, 1) 78%);
+
 }
 
-.padre-form{
+.padre-form {
     background-color: #44B5F7;
     align-items: center;
 }
 
-.fil-inicio{
+.fil-inicio {
     border-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding:10px;
+    padding: 10px;
     margin-bottom: 5px;
 
 }
-@media(max-width:576px){
-    .fil-inicio{
-         flex-direction: column;
+
+@media(max-width:576px) {
+    .fil-inicio {
+        flex-direction: column;
     }
 }
-.div-imagen-unite{
+
+.div-imagen-unite {
     background-color: #44B5F7;
 }
-.imagen-unite{
-    width:100%;
+
+.imagen-unite {
+    width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
+
 /*/pagina iniciar sesion/*/
 
 
-.imput-a{
-    border: 0 ;
+.imput-a {
+    border: 0;
     outline: none;
-    border:1px solid black;
+    border: 1px solid black;
     padding: 10px;
     border-radius: 4px;
     border-color: #83CEF9;
 }
-.imput-d{
-    border:1px solid white;
+
+.imput-d {
+    border: 1px solid white;
     padding: 10px;
     color: white;
     /* background-color:#83CEF9; */
     border-radius: 4px;
-    background: rgb(31,159,214);
-background: linear-gradient(176deg, rgba(31,159,214,1) 20%, rgba(0,178,249,1) 50%, rgba(35,187,247,1) 78%);
+    background: rgb(31, 159, 214);
+    background: linear-gradient(176deg, rgba(31, 159, 214, 1) 20%, rgba(0, 178, 249, 1) 50%, rgba(35, 187, 247, 1) 78%);
 }
-.padre-div-inicio{
+
+.padre-div-inicio {
     background-color: #44B5F7;
 }
-.imagen-inicio-de-sesion{
-    width: 100%; 
+
+.imagen-inicio-de-sesion {
+    width: 100%;
 }
+
 /*/ pagina de modelos/*/
 
-.imagenes-modelos{
+.imagenes-modelos {
     color: white;
-    background-color:#44B5F7;
+    background-color: #44B5F7;
     text-align: center;
     font-size: 1.5rem;
     font-family: 'Times New Roman', Times, serif;
     padding: 10px;
 }
-    
-.bicis-modelos{
+
+.bicis-modelos {
     width: 100%;
     border-radius: 6px;
     border: 1px solid gray;
     display: flex;
 
 }
-@media(min-width:576px){
-    .bicis-modelos{
-        display: flex; 
+
+@media(min-width:576px) {
+    .bicis-modelos {
+        display: flex;
         flex-direction: column;
     }
-    .imagen-ind{
+
+    .imagen-ind {
         display: flex;
         flex-direction: column;
 
     }
-    .imagen-ti{
+
+    .imagen-ti {
         display: flex;
         flex-direction: column;
     }
-   .imagen-des{
+
+    .imagen-des {
         display: flex;
         flex-direction: column;
-   }
+    }
 }
+
 /*/ pagina de indumentaria /*/
-.padre-div-ind{
-   color: white;
-    background-color:#44B5F7 ;
+.padre-div-ind {
+    color: white;
+    background-color: #44B5F7;
     text-align: center;
     font-size: 1.5rem;
     font-family: 'Times New Roman', Times, serif;
@@ -346,45 +394,40 @@ background: linear-gradient(176deg, rgba(31,159,214,1) 20%, rgba(0,178,249,1) 50
 
 }
 
-.imagen-ind{
+.imagen-ind {
     width: 100%;
     border-radius: 6px;
-    border: 1px solid #44B5F7  ;
+    border: 1px solid #44B5F7;
     display: flex;
 
 }
+
 /*/ pagina de tienda/*/
-.padre-div-ti{
+.padre-div-ti {
     color: white;
-    background-color:#44B5F7;
+    background-color: #44B5F7;
     text-align: center;
 }
 
-.imagen-ti{
-   width:100%;
-   border-radius: 6px;
-   border: 2px solid #44B5F7 ;
-   padding: 5px;
-} 
+.imagen-ti {
+    width: 100%;
+    border-radius: 6px;
+    border: 2px solid #44B5F7;
+    padding: 5px;
+}
 
 /*/ pagina descuentos/*/
 
-.padre-div-des{
+.padre-div-des {
     color: white;
-    background-color:#44B5F7;
+    background-color: #44B5F7;
     text-align: center;
 }
 
 
-.imagen-des{
-     width:100%;
-     border-radius: 6px;
-     border: 2px solid#44B5F7 ;
-     padding: 5px;
+.imagen-des {
+    width: 100%;
+    border-radius: 6px;
+    border: 2px solid#44B5F7;
+    padding: 5px;
 }
-
-
-
-
-
-

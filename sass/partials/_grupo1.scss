@@ -1,0 +1,57 @@
+.padre-imagenes {
+    background-color: $base-color;
+    @include grid(auto auto auto auto, 100%, "div1"
+        "div2 "
+        "parrafo"
+        "botom");
+
+
+
+    .imagen1 {
+        grid-area: div1;
+        /* width :600px; */
+        /* height :400px; */
+        margin-bottom: 20px;
+        display: inline-block;
+        background-color: $base-color;
+    }
+
+    .chicoenbici {
+        grid-area: div2;
+        /* width :600px; */
+        /* height: 400px; */
+        margin-bottom: 20px;
+        display: inline-block;
+        background-color: $base-color;
+    }
+
+    .parrafo1 {
+        grid-area: parrafo;
+        color: white;
+        font-size: 1rem;
+        text-align: center;
+        background-color: $light-color;
+        padding: 5px 3px 3px 5px;
+    }
+
+    .botonvermas {
+        grid-area: botom;
+        color: white;
+        font-size: 0.8rem;
+        padding: 10px;
+        border: 1px solid white;
+        @extend .linear-gradient;
+    }
+
+    @media(min-width:576px) {
+        @include grid(auto auto auto, 50% 50%, "div1 div2"
+            "parrafo parrafo"
+            "botom botom");
+
+    }
+}
+
+.padre-hijos img {
+    max-width: 100%;
+    min-width: 100%;
+}

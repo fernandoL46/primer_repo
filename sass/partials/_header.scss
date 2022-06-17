@@ -1,0 +1,32 @@
+.padrelogo {
+    background-color: $base-color;
+    /*/ E /*/
+
+
+    #logo {
+        width: 160px;
+        height: 140px;
+        /*/ E /*/
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+
+
+}
+
+header {
+    h1 {
+        color: white;
+        background-color: $base-color ;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1rem;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        margin: 0rem;
+    }
+}

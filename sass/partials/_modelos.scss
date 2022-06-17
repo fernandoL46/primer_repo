@@ -1,0 +1,23 @@
+.imagenes-modelos {
+    color: white;
+    background-color: #44B5F7;
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+}
+
+.bicis-modelos {
+    width: 100%;
+    border-radius: 6px;
+    border: 1px solid gray;
+    display: flex;
+
+}
+
+@media(min-width:576px) {
+    .bicis-modelos {
+        display: flex;
+        flex-direction: column;
+    }
+}

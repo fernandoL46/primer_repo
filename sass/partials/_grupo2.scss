@@ -1,0 +1,66 @@
+.padre-imagenes2 {
+    $imagenes2-rows: auto auto auto auto auto;
+    $imagenes2-columns: 100%;
+    $imagenes2-areas: "peque"
+    "couple"
+    "chica"
+    "parrafo2"
+    "botom2";
+
+    background-color: $base-color;
+    position: relative;
+    @include grid($imagenes2-rows, $imagenes2-columns , $imagenes2-areas );
+
+    .img-peque {
+        grid-area: peque;
+        /* width: 341px; */
+        /* height:250px; */
+        margin-right: auto;
+    }
+
+    .couple-bici {
+        grid-area: couple;
+        /* width: 341px; */
+        /* height:250px; */
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .chicaenbici {
+        grid-area: chica;
+        /* width: 34s1px; */
+        /* height: 250px; */
+        top: 100px;
+        left: 100px;
+    }
+
+    .parrafo2 {
+        grid-area: parrafo2;
+        color: white;
+        font-size: 1rem;
+        text-align: center;
+        background-color: $light-color;
+        padding: 10px 5px 5px 10px;
+
+    }
+
+    .boton2 {
+        grid-area: botom2;
+        color: white;
+        font-size: 0.8rem;
+        padding: 10px;
+        border: 1px solid white;
+        @extend .linear-gradient;
+    }
+
+    @media(min-width:576px) {
+        $imagenes2-rows-destopk: auto auto auto;
+        $imagenes2-columns-destopk: 33.3% 33.3% 33.3%;
+        $imagenes2-areas-destopk: "peque couple chica"
+        "parrafo2 parrafo2 parrafo2"
+        "botom2 botom2 botom2";
+        @include grid($imagenes2-rows-destopk, $imagenes2-columns-destopk , $imagenes2-areas-destopk );
+
+    }
+}

@@ -1,5 +1,15 @@
 @import "./partials/var";
-@import "./partials/img1";
-@import "./partials/img2";
+@import"./extended";
+@import"./mixins/grid";
+@import"./partials/header";
+@import"./partials/sign-in";
+@import"./partials/nav";
+@import "./partials/grupo1";
+@import "./partials/grupo2";
+@import"./partials/login";
+@import"./partials/modelos";
+@import"./partials/indumentaria";
+@import"./partials/tienda";
+@import"./partials/descuentos";
 @import "./partials/body";
 @import "./partials/footer"
