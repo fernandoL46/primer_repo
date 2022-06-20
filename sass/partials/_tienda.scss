@@ -1,13 +1,13 @@
 .padre-div-ti {
     color: white;
-    background-color: #44B5F7;
+    background-color: $base-color;
     text-align: center;
 }
 
 .imagen-ti {
     width: 100%;
     border-radius: 6px;
-    border: 2px solid #44B5F7;
+    border: 2px solid $base-color;
     padding: 5px;
 
     @media(min-width:576px) {

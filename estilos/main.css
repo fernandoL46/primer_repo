@@ -1,4 +1,4 @@
-.linear-gradient, .boton1 .anchor-unite, .imput-b, ul.menu, .padre-imagenes .botonvermas, .padre-imagenes2 .boton2, form .imput-d {
+.linear-gradient, .boton1 .anchor-unite, .imput-b, ul.menu, .padre-imagenes .botonvermas, .padre-imagenes2 .boton2, form .imput-d, footer {
   background: linear-gradient(180deg, #13a2f5 20%, #5cbff8 50%, #44B5F7 78%); }
 
 .padrelogo {
@@ -301,5 +301,4 @@ footer {
   color: white;
   /* background-color:#83CEF9; */
   text-align: center;
-  background: #1f9fd6;
-  background: linear-gradient(176deg, #1f9fd6 20%, #00b2f9 50%, #23bbf7 78%); }
+  background: #44B5F7; }

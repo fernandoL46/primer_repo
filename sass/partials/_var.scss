@@ -1,3 +1,6 @@
-$base-color: #44B5F7;
+$colores: (
+    pricipal: #44B5F7
+);
+$base-color: map-get($map: $colores, $key: pricipal);
 $dark-color: darken($base-color, 10%);
 $light-color: lighten($base-color, 5%)
