@@ -1,0 +1,357 @@
+.linear-gradient,
+.boton1 .anchor-unite,
+.imput-b,
+ul.menu,
+.padre-imagenes .botonvermas,
+.padre-imagenes2 .boton2,
+form .imput-d,
+footer {
+  background: linear-gradient(180deg, #13a2f5 20%, #5cbff8 50%, #44B5F7 78%);
+}
+
+.padrelogo {
+  background-color: #44B5F7;
+  /*/ E /*/
+}
+
+.padrelogo #logo {
+  width: 160px;
+  height: 140px;
+  /*/ E /*/
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header h1 {
+  color: white;
+  background-color: #44B5F7;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1rem;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 0rem;
+}
+
+.boton1 {
+  background-color: #44B5F7;
+  border: #44B5F7;
+  display: flex;
+  justify-content: left;
+  display: flex;
+  align-items: center;
+  /* background:$base-color; */
+}
+
+.boton1 .anchor-unite {
+  border: 1px solid white;
+  padding: 10px 10px;
+  position: relative;
+  margin-left: 10px;
+  outline: none;
+  color: white;
+  font-size: 1rem;
+}
+
+legend {
+  font-size: 1.5rem;
+  font-style: oblique;
+  float: none;
+  font-weight: 100;
+  text-decoration: underline white;
+}
+
+.imput-g {
+  border: 0;
+  outline: none;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 4px;
+  border-color: #44B5F7;
+  align-items: center;
+}
+
+.imput-b {
+  border: 1px solid white;
+  padding: 10px;
+  color: white;
+  /* background-color:#83CEF9; */
+  border-radius: 4px;
+  background: #1f9fd6;
+}
+
+.padre-form {
+  background-color: #44B5F7;
+  align-items: center;
+}
+
+.fil-inicio {
+  border-color: white;
+  display: flex;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 576px) {
+  .fil-inicio {
+    flex-direction: column;
+  }
+}
+
+.div-imagen-unite {
+  background-color: #44B5F7;
+}
+
+.imagen-unite {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+@media (min-width: 576px) {
+  .padre-imagenes {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "div1 div2""parrafo parrafo""botom botom";
+  }
+}
+
+.padre-hijos img {
+  max-width: 100%;
+  min-width: 100%;
+}
+
+.padre-imagenes2 {
+  background-color: #44B5F7;
+  position: relative;
+  display: grid;
+  grid-template-rows: auto auto auto auto auto;
+  grid-template-columns: 100%;
+  grid-template-areas: "peque""couple""chica""parrafo2""botom2";
+}
+
+.padre-imagenes2 .img-peque {
+  grid-area: peque;
+  /* width: 341px; */
+  /* height:250px; */
+  margin-right: auto;
+}
+
+.padre-imagenes2 .couple-bici {
+  grid-area: couple;
+  /* width: 341px; */
+  /* height:250px; */
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.padre-imagenes2 .chicaenbici {
+  grid-area: chica;
+  /* width: 34s1px; */
+  /* height: 250px; */
+  top: 100px;
+  left: 100px;
+}
+
+.padre-imagenes2 .parrafo2 {
+  grid-area: parrafo2;
+  color: white;
+  font-size: 1rem;
+  text-align: center;
+  background-color: #44B5F7;
+  padding: 10px 5px 5px 10px;
+}
+
+.padre-imagenes2 .boton2 {
+  grid-area: botom2;
+  color: white;
+  font-size: 0.8rem;
+  padding: 10px;
+  border: 1px solid white;
+}
+
+@media (min-width: 576px) {
+  .padre-imagenes2 {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-areas: "peque couple chica""parrafo2 parrafo2 parrafo2""botom2 botom2 botom2";
+  }
+}
+
+form {
+  position: relative;
+  right: auto;
+  left: auto;
+  margin: 0 auto;
+  color: white;
+  background-color: #44B5F7;
+  /*/ este form hace funcion en la pag de inicio/*/
+  font-size: 15px;
+  padding: 20px;
+  border-radius: 3px;
+  border-color: #44B5F7;
+}
+
+form .imput-a {
+  border: 0;
+  outline: none;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 4px;
+  border-color: #83CEF9;
+}
+
+form .imput-d {
+  border: 1px solid white;
+  padding: 10px;
+  color: white;
+  /* background-color:#83CEF9; */
+  border-radius: 4px;
+  background: #1f9fd6;
+}
+
+form .padre-div-inicio {
+  background-color: #44B5F7;
+}
+
+.div-form {
+  padding: 10px 5px 5px 10px;
+  ;
+}
+
+
+.imagen-inicio-de-sesion {
+  width: 100%;
+}
+
+.imagenes-modelos {
+  color: white;
+  background-color: #44B5F7;
+  text-align: center;
+  font-size: 1rem;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 10px;
+}
+
+.bicis-modelos {
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid gray;
+  display: flex;
+}
+
+@media (min-width: 576px) {
+  .bicis-modelos {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.padre-div-ind {
+  color: black;
+  border-color: black;
+  background-color: #44B5F7;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 10px;
+}
+
+.row {
+  display: flex;
+}
+
+@media(max-width: 576px) {
+  .row {
+    display: grid;
+    position: relative;
+  }
+
+}
+
+.imagen-ind {
+  border-radius: 6px;
+  border: 2px solid black;
+  align-items: center;
+
+}
+
+@media (min-width: 576px) {
+  .imagen-ind {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.padre-div-ti {
+  color: white;
+  background-color: #44B5F7;
+  text-align: center;
+}
+
+.imagen-ti {
+  width: 100%;
+  border-radius: 6px;
+  border: 2px solid #44B5F7;
+  padding: 5px;
+}
+
+@media (min-width: 576px) {
+  .imagen-ti {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.padre-div-des {
+  color: white;
+  background-color: #44B5F7;
+  text-align: center;
+}
+
+@media (min-width: 576px) {
+  .padre-div-des {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.imagen-des {
+  width: 100%;
+  border-radius: 6px;
+  border: 2px solid #44B5F7;
+  padding: 5px;
+}
+
+
+.div-mod {
+  position: relative;
+  right: auto;
+  left: auto;
+
+}
+
+a {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body {
+  background-color: white;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  background: #44B5F7;
+  border: white;
+}
